@@ -9,7 +9,7 @@ Description:
     The package consists of three functions, which together can translate a random DNA sequence into an amino acid sequence.
     The function "random_dna" creates a random DNA sequence.
     The function "mk_codons" converts the DNA sequence into codons.
-    The function "dna_codons_to_aa" translate codons into the corresponding amino acids. 
+    The function "dna_codons_to_aa" translate codons into the corresponding amino acids by single-letter code. 
     
 License: What license is it under?
 Encoding: UTF-8
