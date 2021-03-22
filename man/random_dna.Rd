@@ -1,34 +1,34 @@
 \name{random_dna}
 \alias{random_dna}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to sample a random DNA sequence.
 }
+
 \description{
 The function samples a random sequence of the four nucleotides A, T, G, and C with replacement, and concatenate them into one string. The length of the sequence is specified inside the function. 
 }
+
 \usage{
 random_dna(l)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{l}{numeric. Length of DNA sequence.
 }
 }
+
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
+
 \value{
 The return of the function is a string of length l.
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{dna}{DNA sequence as a list.}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
 }
+
 \references{
 %% ~put references to the literature/web site here ~
 }
+
 \author{
 Signe Marcussen
 }
