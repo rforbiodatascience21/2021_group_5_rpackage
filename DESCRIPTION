@@ -5,19 +5,16 @@ Version: 0.1.0
 Author: Group 5
 Maintainer: The group members of group 5 
 Description:
-    
     The package consists of three functions, which together can translate a random DNA sequence into an amino acid sequence.
     The function "random_dna" creates a random DNA sequence.
     The function "mk_codons" converts the DNA sequence into codons.
     The function "dna_codons_to_aa" translate codons into the corresponding amino acids by single-letter code. 
-    
 Depends:
     Non
 Imports:
     Non
 Suggests:
     Non
-
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
