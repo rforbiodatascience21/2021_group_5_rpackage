@@ -27,7 +27,8 @@ random_dna(l = 10)
 mk_codons(dna, s = 1)
 ## Third translate the codons into single-letter amoni acid code
 dna_codons_to_aa(codons)
-
+## fourth create a random DNA sequence of 10 nucleotides:
+random_dna_2(l = 10)
 
 
 ```
