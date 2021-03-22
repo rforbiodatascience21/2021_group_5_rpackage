@@ -2,35 +2,32 @@
 \alias{dna_codons_to_aa}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Convert codons into amino acid sequence by single-letter codes 
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function converts codons into amino acid sequence by the use of their single letter codes. It is based on a convertion table going from the three letter codons to the single letter amino acid. The function concatenate the string of amino acids by no space. 
 }
 \usage{
-dna_codons_to_aa(x)
+dna_codons_to_aa(codons)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{codons}{
+  a vector of codons
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The function returs a string of amino acids
+
 }
 \references{
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Lucille Augusta Green
 }
 \note{
 %%  ~~further notes~~
@@ -42,14 +39,9 @@ dna_codons_to_aa(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+## Getting the single letter code for the given two amino acids 
+dna_codons_to_aa(codons = c("TTT", "TCT"))
 
-## The function is currently defined as
-function (x) 
-{
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
