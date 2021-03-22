@@ -2,27 +2,27 @@
 \alias{random_dna}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Function to sample a random DNA sequence.
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The function samples a random sequence of the four nucleotides A, T, G, and C with replacement, and concatenate them into one string. The length of the sequence is specified inside the function. 
 }
 \usage{
-random_dna(x)
+random_dna(l)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{l}{numeric. Length of DNA sequence.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
+The return of the function is a string of length l.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
+%%  \item{dna}{DNA sequence as a list.}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
@@ -30,7 +30,7 @@ random_dna(x)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Signe Marcussen
 }
 \note{
 %%  ~~further notes~~
@@ -42,14 +42,8 @@ random_dna(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x) 
-{
-  }
+## Random DNA sequence of 10 nucleotides:
+random_dna(l = 10)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
