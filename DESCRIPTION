@@ -11,6 +11,13 @@ Description:
     The function "mk_codons" converts the DNA sequence into codons.
     The function "dna_codons_to_aa" translate codons into the corresponding amino acids by single-letter code. 
     
+Depends:
+    Non
+Imports:
+    Non
+Suggests:
+    Non
+
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
