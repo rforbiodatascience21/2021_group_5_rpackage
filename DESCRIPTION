@@ -1,16 +1,15 @@
 Package: lab08aSimpleRpackage
 Type: Package
-Title: From DNAseq to amino acids (Title Case)
+Title: From DNAseq to amino acids
 Version: 0.1.0
 Author: Group 5
 Maintainer: The group members of group 5 
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description:
     
-    The package consists of three functions. The first creating a random "fake" dna sequence.. 
-    
-    The third function is called "dna_codons_to_aa", it is able to translate codons into the corresponding amino acid. 
-    It takes an input like this: dna_codons_to_aa(c("TTT", "TCT")) which will give the output "FS". 
+    The package consists of three functions, which together can translate a random DNA sequence into an amino acid sequence.
+    The function "random_dna" creates a random DNA sequence.
+    The function "mk_codons" converts the DNA sequence into codons.
+    The function "dna_codons_to_aa" translate codons into the corresponding amino acids. 
     
 License: What license is it under?
 Encoding: UTF-8
